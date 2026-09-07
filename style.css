@@ -78,4 +78,53 @@ input:focus{
     justify-content: space-between;
     align-items: center;
     margin: 15px 0;
+    font-size: 14px;
+
+}
+.options a{
+    text-decoration: none;
+
+}
+button{
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 3s;
+
+}
+button:hover{
+    transform: scale(1.03);
+}
+button[type=submit]{
+    background: #2196f3;
+    color: white;
+
+}
+.divider{
+    margin: 20px 0;
+    font-weight: bold;
+    color: #666;
+
+}
+.google{
+    background: #db4437;
+    color: white;
+
+}
+.facebook{
+    background: #1877f2;
+    color: white;
+
+}
+.signup{
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    color: white;
+    margin: 30px;
 }
